@@ -1,0 +1,303 @@
+.navBar {
+  height: 75px;
+  background-color: #101010; /* Dark slate gray */
+  display: flex;
+  justify-content: center;
+  top: fixed;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  color: #fffffff6; /* Warm gold */
+  font-size: 25px;
+  font-weight: 800;
+  padding-left: 25px;
+}
+
+.outerDiv {
+  height: 900px;
+  width: 100%;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.descDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 700px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 20px;
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff; /* Soft blue */
+}
+
+.leftDiv {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightDiv {
+  color: #1f2937; /* Dark gray */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parkingArea {
+  background-color: #6d28d9; /* Deep violet */
+  width: 90%;
+  height: 90%;
+  margin-top: 0px;
+  border-radius: 12px 0px 0px 12px;
+}
+
+.entrance {
+  background-color: #151515; /* Medium gray */
+  width: 7%;
+  height: 90%;
+  border-radius: 0px 12px 12px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 700;
+  color: #f3f4f6; /* Light gray */
+}
+
+.ent {
+  width: 7px;
+  border-radius: 50px;
+  height: 40%;
+  background-color: #f3f4f6; /* Light gray */
+}
+
+.parkingDiv {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 95%;
+  height: 97%;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.slot {
+  background-color: #2563eb; /* Vibrant blue */
+  width: 100%;
+  height: 22%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f3f4f6; /* Light gray */
+  font-weight: bold;
+}
+
+.parkingSlotsDiv {
+  width: 30%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.slotCorner {
+  padding-left: 250px;
+  height: 25%;
+  width: 17%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: #6d28d9; /* Deep violet */
+  color: #f3f4f6; /* Light gray */
+}
+
+.slotCDiv {
+  background-color: #2563eb; /* Vibrant blue */
+  color: #f3f4f6; /* Light gray */
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* === dynamic green slot styling === */
+.occupied {
+  background-color: #10b981 !important; /* Emerald green */
+}
+
+.content {
+  background-color: #3b82f6; /* Bright blue */
+  width: 90%;
+  height: 90%;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.envData {
+  width: 40%;
+  height: 15%;
+  display: flex;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #1f2937; /* Dark gray */
+  background-color: #e5e7eb; /* Light silver */
+}
+
+.day {
+  background-color: #f9f871 !important;
+  color: black;
+}
+
+.night {
+  background-color: #2c2c54 !important;
+  color: white;
+}
+
+.dayInfo {
+  background-color: #f9f871;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
+
+.nightInfo {
+  background-color: #2c2c54;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
+
+.green {
+  background-color: #2ecc71;
+}
+
+.orange {
+  background-color: #f39c12;
+}
+
+.red {
+  background-color: #e74c3c;
+}
+
+.blue {
+  background-color: #1277e3;
+}
+
+.yellow {
+  background-color: #f1c40f;
+}
+
+.greenInfo {
+  background-color: #2ecc71;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
+
+.orangeInfo {
+  background-color: #f39c12;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
+
+.redInfo {
+  background-color: #e74c3c;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
+
+.blueInfo {
+  background-color: #1277e3;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
+
+.yellowInfo {
+  background-color: #f1c40f;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
+
+.colorInfoDiv {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 70px;
+  justify-content: space-between;
+}
+
+.livedata {
+  width: 100%;
+  height: 1400px;
+}
+
+.dashtitle {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.vehicleData {
+  background-color: #ecf0f1;
+  color: #2c3e50;
+  width: 90%;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  border-radius: 8px;
+  height: 500px;
+  overflow-y: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.vehicleData table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.vehicleData th,
+.vehicleData td {
+  border: 1px solid #bdc3c7;
+  padding: 8px;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.vehicleData tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.vehicleData th {
+  position: sticky;
+  top: 0;
+  background-color: #3498db;
+  color: white;
+  font-weight: 600;
+}

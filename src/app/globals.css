@@ -1,0 +1,9 @@
+/* globals.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(47, 46, 62);
+  color: white;
+  /* Optional fallback */
+  font-family: 'Inter', sans-serif;
+}
