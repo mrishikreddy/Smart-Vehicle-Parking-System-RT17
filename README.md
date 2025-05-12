@@ -137,20 +137,6 @@ To deploy the app:
      ```
    - Ensure Firebase configuration is set in environment variables for production.
 
-## Contributing
-Contributions are welcome! To contribute:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Make your changes and commit (`git commit -m "Add your feature"`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a pull request.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-For questions or feedback, reach out to [your-email@example.com](mailto:your-email@example.com) or open an issue on the repository.
-
 ## Acknowledgements
 - [Next.js](https://nextjs.org/) for the React framework.
 - [Firebase](https://firebase.google.com/) for real-time database and authentication.
