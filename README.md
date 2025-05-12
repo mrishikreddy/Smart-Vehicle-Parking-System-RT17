@@ -16,6 +16,8 @@
 ## Project Overview
 The **Smart Vehicle Parking System** is a web application built with Next.js and Firebase to monitor and manage vehicle parking. It provides real-time updates on parking slot availability, environmental sensor data (temperature, humidity, concentration, day/night status), and vehicle entry/exit history. The system visualizes parking slot occupancy and displays live sensor and vehicle data in an intuitive dashboard.
 
+[Visit Live Project](https://smart-vehicle-parking-system.vercel.app/)
+
 ## Features
 - **Real-Time Parking Monitoring**: Displays the status of six parking slots, updated in real-time using Firebase Realtime Database.
 - **Environmental Sensors**: Tracks temperature, humidity, concentration, and day/night status with color-coded thresholds for safety levels.
