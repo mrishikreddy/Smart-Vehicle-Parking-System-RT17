@@ -56,7 +56,7 @@ To run this project locally, ensure you have the following installed:
 ## Installation
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/smart-vehicle-parking-system.git
+   git clone https://github.com/mrishikreddy/Smart-Vehicle-Parking-System-RT17.git
    cd smart-vehicle-parking-system
    ```
 
